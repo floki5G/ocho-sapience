@@ -14,7 +14,7 @@ bun dev
 ```
 
  
-# Stock Portfolio Tracker
+# ocho-sapience
 
 A Next.js application for tracking stock portfolio performance using web scraping and financial APIs with robust caching and failure handling.
 
@@ -27,13 +27,8 @@ A Next.js application for tracking stock portfolio performance using web scrapin
 - Automated failure recovery
 - Error handling and retry strategies
 
-## Installation
 
-1. **Prerequisites**
-   - Node.js v18+
-   - npm v9+
-
-2. **Clone repository**
+**Clone repository**
    ```bash
-   git clone https://github.com/yourusername/stock-portfolio-tracker.git
-   cd stock-portfolio-tracker
+   git clone https://github.com/floki5G/ocho-sapience
+   cd ocho-sapience
