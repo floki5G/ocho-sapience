@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatCurrency, formatPercentage, getGainLossClassName } from '@/utils/helpers';
+import { formatCurrency, formatPercentage, getGainLossClassName } from '@/utils';
 import { FaChartLine, FaMoneyBillWave, FaWallet, FaArrowUp, FaArrowDown, FaExchangeAlt } from 'react-icons/fa';
 
 const SummaryStats = ({ summary }: {

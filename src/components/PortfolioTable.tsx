@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { calculatePortfolioSummary } from '@/utils/helpers';
+import { calculatePortfolioSummary } from '@/utils';
 import { Portfolio, PortfolioStockData } from '@/types';
 import SectorGroup from './SectorGroup';
 import SummaryStats from './SummaryStats';

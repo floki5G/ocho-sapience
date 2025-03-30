@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="px-2"
+        className="lg:px-2"
       >
         {children}
       </body>

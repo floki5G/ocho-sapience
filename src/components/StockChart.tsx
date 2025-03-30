@@ -8,7 +8,7 @@ import {
     calculatePresentValue,
     calculateGainLoss,
     calculateGainLossPercentage,
-} from "@/utils/helpers";
+} from "@/utils";
 
 Chart.register(...registerables);
 

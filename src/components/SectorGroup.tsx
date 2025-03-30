@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { calculateSectorSummary, formatCurrency, formatPercentage, getGainLossClassName } from '@/utils/helpers';
+import { calculateSectorSummary, formatCurrency, formatPercentage, getGainLossClassName } from '@/utils';
 import StockRow from './StockRow';
 import { Portfolio, PortfolioStockData } from '@/types';
 import { FaChevronDown, FaChevronUp, FaBuilding, FaPercentage, FaMoneyBillWave, FaChartLine } from 'react-icons/fa';

@@ -8,7 +8,7 @@ import {
   formatCurrency,
   formatPercentage,
   getGainLossClassName
-} from '@/utils/helpers';
+} from '@/utils';
 import { Portfolio, PortfolioStockData } from '@/types';
 
 const StockRow = memo(({ stock, stockData, totalInvestment }: {

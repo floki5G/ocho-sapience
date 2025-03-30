@@ -144,7 +144,6 @@ export function calculatePortfolioSummary(sectors: Portfolio['sectors'], stockDa
         Stock[] = [];
 
     sectors.forEach(sector => {
-        console.log('Sector:', sector);
         allStocks = [...allStocks, ...sector.stocks];
     });
 
